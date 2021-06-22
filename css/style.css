@@ -1,0 +1,30 @@
+/* Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Common */
+body {
+    background-color: #F6F8F9;
+    font-family: sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+}
+
+.logo {
+    padding: 10px 20px;
+}
+
+.logo img {
+    vertical-align: middle;
+}
+
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+}
