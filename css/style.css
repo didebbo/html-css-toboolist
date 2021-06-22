@@ -28,3 +28,30 @@ h1 {
     display: inline-block;
     vertical-align: middle;
 }
+
+.main-container {
+    width: 60%;
+    margin: 20px auto;
+    background-color: #fff;
+}
+
+.top-bar {
+    border-bottom: 1px solid lightgrey;
+    padding: 20px 40px;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid;
+}
+.btn-blue {
+    background-color: #47ADF1;
+    color: #fff;
+}
+
+.btn-brd-grey {
+    background-color: #fff;
+    color: lightgrey;
+    border-color: lightgrey;
+}
