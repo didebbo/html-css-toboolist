@@ -20,17 +20,9 @@ body {
 
 /* Header */
 
-header {
-    background-color: #fff;
-}
-
-.logo {
-    padding: 10px 20px;
-}
-
-.logo img {
-    vertical-align: middle;
-}
+header {background-color: #fff;}
+.logo {padding: 10px 20px;}
+.logo img {vertical-align: middle;}
 
 h1 {
     display: inline-block;
@@ -57,6 +49,7 @@ h1 {
     border-radius: 4px;
     border: 1px solid;
 }
+
 .btn-blue {
     background-color: #47ADF1;
     color: #fff;
@@ -70,26 +63,22 @@ h1 {
 
 /* Main Content */
 
-.main-content {
-    padding: 20px;
-}
+.main-content {padding: 20px;}
 
 .ul-category li {
     list-style-type: square;
+    margin: 20px auto;
 }
 
 .ul-category li h3 {
     display: inline-block;
 }
 
-li.v-box {
-   list-style-type: "\2611"; 
-}
+/* Ul Li Box Models */
+li.v-box {list-style-type: "\2611";}
+li.x-box {list-style-type: "\2612";}
 
-li.x-box {
-   list-style-type: "\2612"; 
-}
-
+/* Badge Models */
 .badge {
    font-size: 0.6em;
    font-weight: bold;
@@ -99,8 +88,6 @@ li.x-box {
    color: #fff;
 }
 
-.badge.bg-1 {
-    background-color: #45ABEA;
-}
+.badge.bg-1 {background-color: #45ABEA;}
 
 
